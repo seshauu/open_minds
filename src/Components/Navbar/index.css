@@ -1,0 +1,29 @@
+.bgNav{
+    background-color: white;
+    padding: 15px;
+}
+
+.logo{
+    height: 60px;
+    width: 70px;
+}
+.navheading{
+    font-family: "Bree-serif";
+    font-size: 22px;
+
+}
+.bgNav{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:780px) {
+    .navheading{
+        display: none;
+    }
+}

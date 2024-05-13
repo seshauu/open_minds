@@ -1,0 +1,61 @@
+.heading1{
+    font-family: "Bree-serif";
+    font-size: 22px;
+    margin-left: 10px;
+}
+@media screen and (min-width:780px){
+    .heading1{
+        display: none;
+    }
+    
+}
+
+.pic1{
+    height: 45vh;
+    width: 250px;
+    border-radius: 0px;
+    margin: 5px;
+}
+@media screen and (max-width:780px){
+    .pic1{
+        width: 100vw;
+    }
+}
+.content1{
+    display: flex;
+    margin: 10px;
+    background-color: #edece8;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:780px){
+    .content1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.para_1{
+    font-family: "Roboto";
+    text-align: start;
+    font-size: 18px;
+}
+.highLights{
+    color: #e8bf6d;
+    font-size: 22px;
+
+}
+.para_2{
+    font-family: 'Segoe UI';
+}
+.con1{
+    margin-right: 10px;
+}
+.pic2{
+    width: 100vw;
+}
+@media screen and (max-width:780px){
+    .conpic2{
+        display: none;
+    }
+}
